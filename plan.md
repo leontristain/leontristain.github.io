@@ -80,3 +80,13 @@ A tool that attempts a 1-button install of skyrim modlists.
 6. implement UI workflow for npc-stylizer
 7. once npc-stylizer is ready for public, announce and publish npc-stylizer together with pyxedit 1.0
 8. continue working towards skyrim-builder
+
+
+# test section
+
+```python
+import foo
+
+def whatever():
+    foo.whatever
+```
