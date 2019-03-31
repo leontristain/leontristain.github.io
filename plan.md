@@ -9,47 +9,62 @@ A python wrapper to xedit
 A tool that allows users to pick and choose which npc is to be replaced by which
 npc replacer mod.
 
-Mods to support:
-* Seranaholic
-* Valerica
-* The Ordinary Women
-* The Men of Winter
-* Pandorable's NPCs
-* Pandorable's NPCs - Dawnguard
-* Realistic Faces
-* Improved Bards
-* Fresh Faces
-* Botox For Skyrim
-* Metalsabers Beautiful Ladies of Skyrim
-* Distinct People
-* Inhabitants of Skyrim
-* Bijin AIO
-* Metalsabers Beautiful Orcs of Skyrim
-* Migal's Hearthfires Bards
-* Followers Hirelings and Housecarls
-* Distinct Husbands
-* Metalsabers Beautiful Vampires of Skyrim
-* Massive NPC Facelift Overhaul
-* Diversity - An NPC Overhaul
-* WICO - Windsong Immersive Character Overhaul
-* People - Cathedral Concept
-* Total Character Makeover
+Mods to support: ANY
 
 ### NPC Facebook (npc-facebook)
 
 **Script To Generate FormList**
 
- - download and unpack all above mods
- - take input all the mod folders
- - find all below files across all mod folders and collect form ids:
-    data/meshes/actors/character/FaceGenData/FaceGeom/*/(form_id).nif
-    data/textures/actors/character/FaceGenData/FaceTint/*/(form_id).dds
- - in pyxedit, open up NpcFacebookBase.esp
- - copy all records to a new NpcFacebook.esp
- - in NpcFacebook.esp, empty formlist
- - in NpcFacebook.esp, add the overall set of form ids to formlist
- - save NpcFacebook.esp to a new mod and copy over scripts
- - and we're done!
+skyrim-builder modlist to install the following:
+
+- any required body replacer (UNP, CBBE, SOS, etc..., and custom body textures)
+- any required hair mods (ApachiiSkyHair, etc...)
+- the list of NPC overhaul mods
+- salt and wind retextures
+- (install body replacer separately)
+- (install base hair mods separately)
+- (install Salt and Wind retextures _with_ the base mod they modify)
+
+user launch program:
+
+- user is prompted the path to the Skyrim folder, if the folder is a protected
+  folder, user is warned to run everything as administrator (or simply told to
+  install Skyrim somewhere else)
+
+- user is given the option to install SKSE; if user already has SKSE user may
+  chooes not to do this step
+
+- user is prompted to provide the archive of a Mod Organizer 2 standalone
+  executable, as well as a folder to work in (work dir may be auto-created)
+
+- program installs Mod Organizer 2
+- program configures Mod Organizer 2
+- program installs the list of mods with Mod Organizer 2
+- program opens all mods with pyxedit to generate a list of NPCs affected
+- program uses NpcFacebookTemplate.esp as a template to generate NpcFacebook.esp
+- program packages NpcFacebook.esp together with the template files and the
+  NPCs list as a mod
+- the generated mod is in turn installed into Mod Organizer 2
+
+- user is given the option to launch Skyrim via Mod Organizer 2; once in game,
+  user is told to go to MCM menu for NPC Facebook and press the button there
+
+- in-game, mod script will cycle through the list of NPCs read in from the
+  file, and photoshoots each of them (properly framed against a nice backdrop -
+  maybe somewhere in riverwood; timescale is forced to pass very slowly and
+  weather is repeated forced to be 81a to ensure optimum lighting conditions)
+
+- once complete, player is told to exit the game
+
+- during the photoshoot session, a timestamp is logged at beginning and end to
+  mark the duration of the session
+
+- once outside of the game, user can click the button to retrieve images; this
+  will inspect the screenshot output directory, retrieve the files based on the
+  timestamp window, and then renames/processes the files based on NPC order
+
+- the end 'facebook' folder can be incrementally updated with photoshoots from
+  each mod
 
 ### Skyrim Builder (skyrim-builder)
 
