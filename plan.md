@@ -9,6 +9,48 @@ A python wrapper to xedit
 A tool that allows users to pick and choose which npc is to be replaced by which
 npc replacer mod.
 
+Mods to support:
+* Seranaholic
+* Valerica
+* The Ordinary Women
+* The Men of Winter
+* Pandorable's NPCs
+* Pandorable's NPCs - Dawnguard
+* Realistic Faces
+* Improved Bards
+* Fresh Faces
+* Botox For Skyrim
+* Metalsabers Beautiful Ladies of Skyrim
+* Distinct People
+* Inhabitants of Skyrim
+* Bijin AIO
+* Metalsabers Beautiful Orcs of Skyrim
+* Migal's Hearthfires Bards
+* Followers Hirelings and Housecarls
+* Distinct Husbands
+* Metalsabers Beautiful Vampires of Skyrim
+* Massive NPC Facelift Overhaul
+* Diversity - An NPC Overhaul
+* WICO - Windsong Immersive Character Overhaul
+* People - Cathedral Concept
+* Total Character Makeover
+
+### NPC Facebook (npc-facebook)
+
+**Script To Generate FormList**
+
+ - download and unpack all above mods
+ - take input all the mod folders
+ - find all below files across all mod folders and collect form ids:
+    data/meshes/actors/character/FaceGenData/FaceGeom/*/(form_id).nif
+    data/textures/actors/character/FaceGenData/FaceTint/*/(form_id).dds
+ - in pyxedit, open up NpcFacebookBase.esp
+ - copy all records to a new NpcFacebook.esp
+ - in NpcFacebook.esp, empty formlist
+ - in NpcFacebook.esp, add the overall set of form ids to formlist
+ - save NpcFacebook.esp to a new mod and copy over scripts
+ - and we're done!
+
 ### Skyrim Builder (skyrim-builder)
 
 A tool that attempts a 1-button install of skyrim modlists.
