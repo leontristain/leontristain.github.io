@@ -1,8 +1,3 @@
-# test section
+# leontristain's blog
 
-```python
-import foo
-
-def whatever():
-    foo.whatever
-```
+[link to blog](https://leontristain.github.io)
