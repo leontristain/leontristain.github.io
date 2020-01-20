@@ -36,3 +36,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# this disables the "view on github" link on the blog
+github:
+  is_project_page: false
