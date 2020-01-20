@@ -13,6 +13,8 @@ Mods to support: ANY
 
 ### NPC Facebook (npc-facebook)
 
+(maybe call this project the "Book of Faces")
+
 **Script To Generate FormList**
 
 skyrim-builder modlist to install the following:
