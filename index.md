@@ -1,7 +1,4 @@
 ---
-layout: post
-title: "Index Page"
+layout: home
+paginate: true
 ---
-# Hello World?
-
-Lorem ipsum dolor et Amet?
