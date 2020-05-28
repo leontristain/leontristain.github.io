@@ -6,7 +6,7 @@ date: 2020-05-28 13:37:57 -0800
 
 # Duck Noodle Soup Recipe
 
-[Imgur](https://imgur.com/CgkTLe1)
+![Image](https://i.imgur.com/CgkTLe1.jpg)
 
 ## Ingredients
 
