@@ -46,7 +46,7 @@ I also like to wash and trim the end of the cilantro ahead of time, to portion i
 
 * Boil up some water in a small pot (I do so in a kettle before adding to pot because it's faster)
 * Dump in the wad of noodles
-* Cook until ready (takes about 1-2 minutes with fresh noodles, longer if using some dried noodle - follow instructions on recipe)
+* Cook until ready (takes about 1-2 minutes with fresh noodles, longer if using some dried noodle - follow instructions on the packaging)
 * Drain and wash noodles in cold water, then put into bowl
 
 #### Cook Duck
@@ -66,5 +66,5 @@ I also like to wash and trim the end of the cilantro ahead of time, to portion i
 * Add some seasoning from the Shin Ramyun Seasoning Packet - just a little bit, not too much since this can get quite spicy
 * Continue to simmer until Yu Choy is cooked through (should take no more than 2-3 minutes overall)
 * Turn off the heat, dump in chopped cilantro and pour a small amount of sesame oil, then stir.
-* Use chopsticks to fish out most of the solid stuff into noodle bowl, then ladel the soup into noodle bowl to finish it.
+* Use chopsticks to fish out most of the solid stuff into noodle bowl, then ladle the soup into noodle bowl to finish it.
 * Take pictures and enjoy
